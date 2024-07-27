@@ -75,31 +75,6 @@
     filter: invert(300%);
 }
 
-.filter {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.filter span {
-    display: flex;
-    align-items: center;
-    color: #aaa;
-}
-
-.filter button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-left: 5px;
-}
-
-.filter button img {
-    margin-bottom: -5px;
-}
-
 .category-drug {
     margin: 20px 0 20px 0;
     display: flex;
