@@ -59,7 +59,7 @@ const Home = () => {
         <title>Home - Kina Pharmacy</title>
       </Helmet>
       <div
-        className="relative h-[486px] bg-cover bg-center"
+        className="relative h-[330px] bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-start items-start p-14 pl-20">
@@ -369,7 +369,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div style={{ width: 400 }} className="rounded-xl mt-5 md:mt-0">
+        <div style={{ width: 300 }} className="rounded-xl mt-5 md:mt-0">
           <img
             src={whyUs}
             alt="Pharmacist"
@@ -404,7 +404,7 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col md:flex-row p-20 justify-between">
-        <div>
+        <div style={{ gap: 10 }}>
           {/**Image */}
           <div className="relative rounded-2xl">
             <div className="rounded-2xl">
